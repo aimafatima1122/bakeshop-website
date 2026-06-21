@@ -1,0 +1,518 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 35%;
+    border: 7px solid white;
+    border-radius: 25px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    margin-left: -8px;
+}
+.nav-list{
+    display: flex;
+   width: 70%;
+   align-items: center;
+}
+.nav-list li{
+   list-style:  none;
+   padding: 12px 25px;
+}
+.nav-list li a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-family: "Ubuntu", sans-serif;
+}
+.nav-list li a:hover{
+   text-decoration: none;
+   color: white;
+   color: rgb(182, 178, 178);
+}
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+.background{
+    background: rgba(48, 45, 45, 0.7) url('https://chashma.com/cdn/shop/files/IMG_0002_eaa863eb-9493-4157-a351-8b3cab8834e8.jpg?v=1708064205&width=1500');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+    margin-left: -8px;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 55%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 25px;
+}
+.secondhalf{
+      width: 30%;
+}
+.secondhalf img{
+      width:130px;
+      border: 4px solid white;
+      border-radius: 200px;
+      display: block;
+      margin: 10px 7px;
+      margin-bottom: 60px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.sunglasses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.sunglass-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.sunglass-card:hover {
+  transform: scale(1.05);
+}
+
+.sunglass-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.sunglass-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.sunglass-price {
+  font-size: 16px;
+  color: #ff4c4c;
+  margin-bottom: 15px;
+}
+
+.buy-btn {
+  background-color: #ff4c4c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.checkout-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.checkout-form label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.checkout-form input,
+  .checkout-form textarea {
+    font-size: 14px;
+    width: 100%;
+  }
+.buy-btn:hover {
+  background-color: #e03e3e;
+  transform: scale(1.05);
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 17px 0px;
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 94px;
+}
+.paras{
+    padding: 0px 20px;
+    margin: 0px 10px;
+}
+.sectionsubtag{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumb img{
+    width: 130px;
+    border: 4px solid white;
+    border-radius: 200px;
+    display: block;
+    margin: 10px 7px;
+}
+.thumbnail img{
+    width: 350px;
+    border: 4px solid rgb(14, 9, 9);
+    display: block;
+    margin: 10px 7px;
+    margin-right: 30px;
+}
+.thumbb img{
+    width: 350px;
+    display: block;
+    margin: 10px 7px;
+    margin-right: 30px;
+    height: 300px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.thumb img{
+     margin: 30px;
+     width: 616px;
+     border: 3px black;
+     height: 500px;
+}
+.text-big{
+    font-size: 32px;
+    margin-top: -31px;
+}
+.text-small{
+    font-size: 16px;
+}
+.section-tag{
+    padding: 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -27px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+.btn-sm{
+   padding: 6px 10px;
+   vertical-align: middle;
+   font-size: 16px;
+}
+.btn a{
+    color: white;
+       text-decoration: none;
+}
+.btn a:hover{
+    color: rgb(173, 169, 169);
+}
+.btn-dark{
+    color: black;
+    border:2px solid grey;
+    font-size: 16px;
+}
+.sectiontag{
+    padding: 16px 0px;
+}
+.contact{
+    background-color: #f0ebeb;
+    height:480px;
+}
+.text-centre{
+    text-align: center;
+    padding-top: 30px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.contact-form {
+ background: #d2c7c7;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  width: 96%;
+  max-width: 1500px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 94%;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+.text-footer{
+     text-align: center;
+     padding: 30px 0px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;color: white;
+    margin: -4px;
+}
+#myImage{
+  width: 235px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  margin: 25px 20px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 17px;
+}
+@media only screen and (max-width: 1140px){
+.nav-list{
+      flex-direction: column;
+      justify-content: center;
+}
+.navbar{
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 447px;
+}
+.rightnav{
+    text-align: left;
+}
+.box-main{
+   flex-direction: column-reverse;
+   max-width: 100%;
+    padding: 0 15px; 
+}
+#search{
+    width: 100%;
+}
+.menu{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.text-small{
+      text-align: center;
+}
+.text-big{
+       text-align: center;
+}
+.buttons{
+   text-align: center;
+} 
+.thumbnail img{
+    margin-right: 6px;
+    margin-top: 35px;
+}
+.thumb img{
+    margin-left: 35px;
+}
+.thumbb img{
+  margin-right: 5px;
+}
+.paras{
+    padding: 0px;
+}
+.background{
+    background-color: rgba(114, 110, 110, 0.7)  url('https://chashma.com/cdn/shop/files/IMG_0002_eaa863eb-9493-4157-a351-8b3cab8834e8.jpg?v=1708064205&width=1500');
+  background-size: cover;
+  background-blend-mode:darken;
+  background-position: center;
+  margin-right: -430px;
+    justify-content: center;
+}    
+.secondhalf {
+      width: 100%;             
+      display: flex;             
+      justify-content: center;   
+      align-items: center;       
+  }
+
+  .secondhalf img {
+      margin: 20px auto;         
+      display: block;
+  }
+  .container {
+    padding: 15px;
+    margin-right: -347px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-right: -60px;
+  }
+
+  .sunglasses-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 110px;
+    margin-right: -65px;
+  }
+
+  .sunglass-card {
+    padding: 10px;
+  }
+
+  .sunglass-card img {
+    margin-bottom: 10px;
+  }
+
+  .sunglass-name {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .sunglass-price {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .buy-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .section{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 185%;
+    margin: auto;
+    padding: 17px 0px;
+    font-family: "Ubuntu", sans-serif;
+    margin-right: -370px;
+    margin-top: 50px;
+  }
+  .contact-form input,
+.contact-form textarea {
+ background:#ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  width: 83%;
+  max-width: 1500px;
+}
+.contact-form button {
+    width: 95%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.contact-form {
+    width: 158%;
+    margin: auto;
+  }
+}
